@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign up</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <h2> Create Account</h2>
+        <div class="main">
+            <form>
+                <input type="text" name="name" placeholder="Username" class="input" required>
+              <input type="email" name="email" placeholder="E-mail" class="input"
+    pattern="^[a-z0-9._%+-]+@gmail\.com$"
+    title="Enter a valid Gmail address in lowercase only (example@gmail.com)"
+    required>
+                <input type="password" name="name" placeholder="Set Password" class="input" pattern="(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]*" required>
+                <input type="password" name="name" placeholder="Confirm Password" class="input" pattern="(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]*" required>
+                <label><input type="checkbox" required> I agree to the terms and conditions</label>
+                <br><br><br>
+                <button type="submit">Sign up</button>
+
+            
+            </form>
+        </div>
+    </body>
+</html>
